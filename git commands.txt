@@ -1,0 +1,43 @@
+git --version
+git config --global user.name
+git config --global user.email
+cd ../
+CD ./02_GIT
+git status
+git init
+cd .git
+dir
+dir /w
+cd ..
+git add build.gradle
+git rm --cached .gitignore
+
+git add .gitignore
+git add .
+
+git commit -m "init commit"
+git remote add origin git@github.com:hm-qa/QAGuru40-HW2-GIT.git
+git push -u origin master
+
+git status
+git branch
+git branch new-branch
+git checkout master
+git checkout new-branch
+
+git add .
+git commit -m ".gitignore was changed, conspect was added"
+
+
+git checkout master
+git checkout new-branch
+
+git pull
+
+mastr merge into some_branch
+rebase
+fetch
+
+
+---------
+git config --list
