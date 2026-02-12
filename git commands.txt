@@ -1,3 +1,5 @@
+QA Guru 40.02 конспект команды git
+----------------------------------
 git --version
 git config --global user.name
 git config --global user.email
